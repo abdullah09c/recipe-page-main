@@ -20,13 +20,13 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
  <p>Desktop</>
 <img src="screenshot/desktop.jpeg" alt="Recipe page screenshot desktop" style="width: 100%; max-width: 600px;">
 <p>Mobile</p>
-<img src="screenshot/mobile.jpeg" alt="Recipe page screenshot mobile" style="width: 200;">
+<img src="screenshot/mobile.jpeg" alt="Recipe page screenshot mobile" style="width: 150px;">
 
 
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/abdullah09c/recipe-page-main.git)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://abdullah09c.github.io/recipe-page-main/)
 
 ## My process
 
