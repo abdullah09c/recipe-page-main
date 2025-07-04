@@ -1,0 +1,119 @@
+/* Custom Font Declarations */
+@font-face {
+  font-family: "Young Serif";
+  src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/static/Outfit-Regular.ttf")
+    format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+main {
+  width: 35%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  margin: 2rem auto;
+  padding: 60px;
+}
+
+.ptime {
+  background: hsl(330, 100%, 98%);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ptime h2 {
+  color: hsl(332, 51%, 32%);
+  font-size: 19px;
+  position: relative;
+  left: 2%;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+
+.ptime ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.top img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+ul {
+  list-style: square;
+}
+
+li {
+  padding-left: 1em;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+hr{
+  border: .5px solid hsl(30, 18%, 87%);
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+table td{
+  border-bottom: .5px solid  hsl(30, 18%, 87%);
+  width: 20vw;
+  padding: 5px;
+}
+
+#brown{
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  main {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    border-radius: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .top img {
+    border-radius: 0;
+  }
+  table td{
+    width: 25vh;
+  }
+}
