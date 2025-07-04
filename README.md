@@ -20,7 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
  <p>Desktop</>
 <img src="screenshot/desktop.jpeg" alt="Recipe page screenshot desktop" style="width: 100%; max-width: 600px;">
 <p>Mobile</p>
-<img src="screenshot/mobile.jpeg" alt="Recipe page screenshot mobile" style="width: 100%; max-width: 150px;">
+<img src="screenshot/mobile.jpeg" alt="Recipe page screenshot mobile" style="width: 200;">
 
 
 ### Links
